@@ -3,4 +3,4 @@ RewriteBase /
 
 # Example of an alias
 # note the pattern "RewriteRule ^path/desired/in/url /index.php?arguments=whatever [L]"
-# RewriteRule ^not/home /index.php [L]
+RewriteRule ^not/home /index.php [L]
