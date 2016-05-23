@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{> global/head }}
+</head>
+<body>
+
+	{{# is_home }}
+		{{> home/header }}
+	
+		{{> home/content }}
+	{{/ is_home }}
+
+	{{# is_page }}
+		{{> page/header }}
+
+		{{> page/content }}
+	{{/ is_page }}
+
+	{{> global/footer }}
+</body>
+</html>

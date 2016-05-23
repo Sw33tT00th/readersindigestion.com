@@ -1,0 +1,11 @@
+{
+	"is_home" : false,
+	"publish_date" : "June 7, 2016",
+	"keywords" : [],
+	"category" : "books",
+	"title" : "books 2",
+	"content" : [
+		{ "item" : "<p>This is a test</p>" },
+		{ "item" : "<p>This is another paragraph</p>" }
+	]
+}

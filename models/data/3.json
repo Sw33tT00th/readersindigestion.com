@@ -1,0 +1,11 @@
+{
+	"is_home" : false,
+	"publish_date" : "June 21, 2016",
+	"keywords" : [],
+	"category" : "games",
+	"title" : "No Man's Sky",
+	"content" : [
+		{ "item" : "<p>This is a test</p>" },
+		{ "item" : "<p>This is another paragraph</p>" }
+	]
+}

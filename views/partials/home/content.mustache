@@ -1,0 +1,19 @@
+<main>
+	<section>
+		{{{ welcome_message }}}
+	</section>
+	<section id="featured-items" class="row">
+		{{# featured }}
+		<article class="featured-{{ category }} col-md-4">
+			<a class="featured-link" href="/{{ url }}" title="{{ title }}">
+				{{ title }}<span class="right">{{ publish_date_string }}</span>
+			</a>
+		</article>
+		{{/ featured }}
+	</section>
+	<section id="main-content">
+	{{# content }}
+		{{{ item }}}
+	{{/ content }}
+	</section>
+</main>
